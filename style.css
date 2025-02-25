@@ -1,0 +1,526 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box; 
+}
+
+
+body
+{
+    background:url(imagenes/fondo2.png);
+    background-color: #F2F3F4;
+}
+
+header
+{
+    width: 100%;
+    height: 50%;
+    margin: auto;
+    margin-top: 5px;
+}
+
+header img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.contenedor
+{
+    min-height: 500px;
+    width: 85%;
+    margin: auto;
+    background-color: white;
+    border-radius: 25px;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+menu
+{
+    background-color: #ffffff;
+    border-radius:20px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+menu nav, menu button
+{
+    max-width: 1000px;
+    list-style:none;
+    width:85%;
+    margin:0px auto ;
+    position:relative;
+    -moz-border-radius:20px;
+    -webkit-border-radius:20px;
+    border-radius:20px;
+    background: #013953;
+    background:-moz-linear-gradient(top,#0272a7,#013953);
+    background:-webkit-gradient(linear,0% 0%,0% 100%,from(#0272a7),to(#013953));    
+    background: linear-gradient(to bottom, #0272a7, #013953);
+}
+
+menu nav ul
+{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+menu nav ul li
+{
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+    margin-left: 10px;
+} 
+ 
+menu nav ul li a
+{
+    color: #ffffff;
+    padding: 20px;
+    display:block;
+    text-decoration:none;
+    font-family: Arial;
+}
+
+menu nav ul li a:hover
+{
+    background: #0692d3;
+    border-radius:20px;
+}
+
+.destacar
+{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top:50px;
+}
+
+table
+{
+    width:90%;
+    padding: 20px;
+    margin: auto;
+    text-align:center;
+    border: 2px solid #0692d3; 
+    border-radius:25px;
+}
+
+table tr td
+{
+    padding:20px;
+}
+
+table tr td img
+{
+    width: 200px;
+    height: 200px;
+}
+
+table tr td a
+{
+    text-decoration: none;
+    color: black;
+}
+
+table tr td a:hover
+{
+    text-decoration: none;
+    color: #0272a7;
+    cursor: pointer;
+}
+
+table tr td a:hover label
+{
+    text-decoration: none;
+    color: #0272a7;
+    cursor: pointer;
+}
+
+.texto
+{
+    font-size: 15px;
+    font-family: Arial;
+    text-align: center;
+}
+
+.productos
+{
+    margin: auto;
+    width: 90%;
+    text-align: center;
+}
+
+.productos img
+{
+    width: 40%;
+    height: 50%;
+    border-radius:25px;
+    padding-bottom: 15px;
+}
+
+.productos img:hover
+{
+    cursor: pointer;
+}
+
+footer
+{
+    background-color: #CDCDCD;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.footer_enlaces a
+{
+    color: black;
+}
+
+.footer_enlaces a:hover
+{
+    color: #026897;
+}
+
+.conocenos
+{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.conocenos img
+{
+    width:85%;
+    margin: auto;
+}
+
+.contacto
+{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.contacto img
+{
+    width:85%;
+    margin: auto;
+    border-radius:25px;
+}
+
+.privacidad
+{
+    width: 90%;
+    margin: auto;
+    font-family: Arial;
+    text-align: justify;
+    font-size: 17px;
+}
+
+.privacidad h3
+{
+    text-align: center;
+    color: #0272a7;
+}
+
+.imagen
+{
+    margin: auto;
+    width: 50%;
+}
+
+.imagen img
+{
+    width: 300px;
+    height: 300px;
+}
+
+.informacion
+{
+    font-family: Arial;
+    width: 50%;
+}
+
+.informacion h3
+{
+    color: #0272a7;
+    padding-bottom: 20px;
+}
+
+.informacion p
+{
+    text-align: justify;
+    padding: 5px;
+}
+
+.informacion strong
+{
+    color: #0272a7;
+    text-align: left;
+}
+
+.contenido_producto
+{
+    padding-bottom: 20px;
+}
+
+.btn
+{
+    display: block;
+    margin-top: 50px;
+    padding:5px;
+    color: #ffffff;
+    text-decoration:none;
+    font-family: Arial;
+    font-size:20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    margin:0 auto 0;
+    background: #013953;
+    position:relative;
+    -moz-border-radius:20px;
+    -webkit-border-radius:20px;
+    border-radius:20px;
+    background:-moz-linear-gradient(top,#0272a7,#013953);
+    background:-webkit-gradient(linear,0% 0%,0% 100%,from(#0272a7),to(#013953));
+}
+
+.btn:hover
+{
+    display: block;
+    margin-top: 50px;
+    cursor: pointer;
+    padding:5px;
+    color: #ffffff;
+    text-decoration:none;
+    font-family: Arial;
+    font-size:25px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    margin:0 auto 0;
+    background: #013953;
+    position:relative;
+    -moz-border-radius:20px;
+    -webkit-border-radius:20px;
+    border-radius:20px;
+    background:-moz-linear-gradient(top,#0391d3,#016594);
+    background:-webkit-gradient(linear,0% 0%,0% 100%,from(#0391d3),to(#016594));
+}
+
+.submenu
+{
+    display: none;
+    position: absolute;
+    background: #013953;
+    background:-moz-linear-gradient(top,#0272a7,#013953);
+    background:-webkit-gradient(linear,0% 0%,0% 100%,from(#0272a7),to(#013953)); 
+    background: linear-gradient(to bottom, #0272a7, #013953); 
+	width: 150%;
+	z-index:1000;
+}
+
+menu nav ul li:hover .submenu
+{
+    display: block;
+    border-radius: 20px;
+}
+
+h1
+{
+    text-align: center;
+    font-family:Arial;
+    color: #005f8b;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+fieldset
+{
+    width:70%;
+    margin: auto;
+    border-radius:25px;
+    text-align: left;
+    font-family: Arial;
+    border-color: #0692d3;
+}
+
+fieldset p
+{
+    padding: 10px;
+}
+
+fieldset legend
+{
+    font-weight:bold;
+}
+
+.comprar_producto
+{
+    border: none;
+}
+
+
+/* Diseño del botón de menú hamburguesa */
+.menu-toggle {
+    display: none; /* Oculto en escritorio */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border-radius:20px;
+}
+
+
+/*Responsive Design para el menu*/
+@media (max-width: 992px) {
+
+    .menu-toggle {
+        display: block; /* Se muestra en móviles */
+    }
+
+    #nav-menu {
+        display: none; /* Oculto por defecto */
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 60px;
+        z-index: 1000;
+    }
+
+    #menu{
+        margin-bottom: 15px;
+    }
+
+    #menu nav ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #nav-menu.active {
+        display: flex; /* Se muestra cuando tiene la clase 'active' */
+    }
+
+    /* Muestra el menú cuando está activo */
+    nav.active {
+        display: block;
+    }
+
+    /* Cambia la disposición del menú a vertical */
+    nav ul li {
+        display: block;
+        margin: 0;
+        width: 100%;
+    }
+
+    nav ul li a {
+        padding: 15px;
+        text-align: center;
+        width: 100%;
+    }
+
+    /* Submenú en móviles */
+    .submenu {
+        position: static;
+        width: 100%;
+    }
+
+    nav ul li:hover .submenu {
+        display: none; /* Oculta el submenú al hacer hover en móviles */
+    }
+
+    /* Muestra el submenú al hacer clic */
+    nav ul li:focus-within .submenu,
+    nav ul li:active .submenu {
+        display: block;
+    }
+}
+
+
+/* Tabla dentro de index.html en responsive design */
+@media screen and (max-width: 992px) {
+    table {
+        width: 100%;
+    }
+
+    table tr {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    table tr td {
+        width: 45%; /* Reduce el ancho para que solo entren dos por fila */
+        padding: 10px;
+    }
+
+    table tr td img {
+        width: 100px; /* Reduce el tamaño de las imágenes */
+        height: auto;
+    }
+
+}
+
+
+/* Tabla dentro de Producto.html en responsive design */
+@media (max-width: 992px) {
+    .contenido_producto table {
+        width: 80%; /* Ajusta el ancho de la tabla al 80% del contenedor */
+        display: flex;
+        flex-direction: column; /* Cambia la dirección de la tabla a vertical */
+    }
+
+    .contenido_producto table tr {
+        display: flex;
+        flex-direction: column; /* Cambia la dirección de la fila a vertical */
+    }
+
+    .contenido_producto table td {
+        width: 100%; /* Hace que cada celda ocupe el 100% del ancho */
+        text-align: center; /* Centra el contenido de las celdas */
+    }
+
+    .contenido_producto table td.imagen {
+        order: 1; /* Coloca la imagen primero */
+    }
+
+    .contenido_producto table td.informacion {
+        order: 2; /* Coloca la información después de la imagen */
+    }
+
+    .contenido_producto table td img {
+        width: 80%; /* Reduce el tamaño de la imagen */
+        height: auto; /* Mantiene la proporción de la imagen */
+        margin: 0 auto; /* Centra la imagen horizontalmente */
+    }
+
+    .contenido_producto table td.informacion h3 {
+        font-size: 20px; /* Ajusta el tamaño del título */
+    }
+
+    .contenido_producto table td.informacion p {
+        font-size: 15px; /* Ajusta el tamaño del texto de la descripción */
+    }
+}
